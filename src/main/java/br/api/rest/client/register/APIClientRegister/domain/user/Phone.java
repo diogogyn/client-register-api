@@ -1,5 +1,6 @@
 package br.api.rest.client.register.APIClientRegister.domain.user;
 
+import br.api.rest.client.register.APIClientRegister.domain.user.record.PhoneRecord;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -15,8 +16,13 @@ public class Phone {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Getter
     private Long id;
-    @Column(name = "id_usuario")
-    private Long userId;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "id_usuario")
+    private User user;
     @Column(name = "telefone")
     private String phone;
+
+    public Phone(String phone) {
+        this.phone = phone;
+    }
 }

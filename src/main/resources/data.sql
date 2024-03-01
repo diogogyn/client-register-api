@@ -1,2 +1,0 @@
-INSERT INTO usuario (id, nome, cpf, endereco, bairro) VALUES(1, 'Usuario', '039.039.039-00', 'Rua sem saida, 404', 'Bairro dos que não voltaram');
-INSERT INTO lista_telefones (id, id_usuario, telefone) VALUES (1, 1, 11960543212);
