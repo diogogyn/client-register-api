@@ -1,7 +1,6 @@
 package br.api.rest.client.register.APIClientRegister.domain.phone.validations;
 
 import br.api.rest.client.register.APIClientRegister.domain.phone.repository.PhoneRepository;
-import br.api.rest.client.register.APIClientRegister.domain.user.Phone;
 import br.api.rest.client.register.APIClientRegister.domain.user.User;
 import br.api.rest.client.register.APIClientRegister.domain.user.record.UserRegisterRecord;
 import br.api.rest.client.register.APIClientRegister.domain.user.record.UserUpdateRecord;

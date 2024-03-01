@@ -4,8 +4,6 @@ import br.api.rest.client.register.APIClientRegister.domain.user.User;
 import br.api.rest.client.register.APIClientRegister.domain.user.record.UserRegisterRecord;
 import br.api.rest.client.register.APIClientRegister.domain.user.record.UserUpdateRecord;
 
-import java.util.List;
-
 public interface PhoneValidation {
 
 //    void validateRegister(UserRegisterRecord record);

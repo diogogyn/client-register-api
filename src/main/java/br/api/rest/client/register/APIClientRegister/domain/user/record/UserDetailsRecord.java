@@ -1,12 +1,8 @@
 package br.api.rest.client.register.APIClientRegister.domain.user.record;
 
-import br.api.rest.client.register.APIClientRegister.domain.user.Phone;
+import br.api.rest.client.register.APIClientRegister.domain.phone.Phone;
 import br.api.rest.client.register.APIClientRegister.domain.user.User;
 import br.api.rest.client.register.APIClientRegister.domain.user.address.Address;
-import jakarta.validation.Valid;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Pattern;
 
 import java.util.ArrayList;
 import java.util.List;

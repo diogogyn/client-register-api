@@ -1,7 +1,9 @@
-package br.api.rest.client.register.APIClientRegister.domain.user;
+package br.api.rest.client.register.APIClientRegister.domain.user.service;
 
+import br.api.rest.client.register.APIClientRegister.domain.phone.Phone;
 import br.api.rest.client.register.APIClientRegister.domain.phone.repository.PhoneRepository;
 import br.api.rest.client.register.APIClientRegister.domain.phone.validations.PhoneValidation;
+import br.api.rest.client.register.APIClientRegister.domain.user.User;
 import br.api.rest.client.register.APIClientRegister.domain.user.record.UserDetailsRecord;
 import br.api.rest.client.register.APIClientRegister.domain.user.record.UserRegisterRecord;
 import br.api.rest.client.register.APIClientRegister.domain.user.record.UserUpdateRecord;
@@ -9,7 +11,7 @@ import br.api.rest.client.register.APIClientRegister.domain.user.repository.User
 import br.api.rest.client.register.APIClientRegister.domain.user.validations.UserValidation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import java.util.stream.Collectors;
+
 import java.util.List;
 
 @Service

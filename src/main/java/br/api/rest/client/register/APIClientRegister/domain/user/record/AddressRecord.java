@@ -1,7 +1,6 @@
 package br.api.rest.client.register.APIClientRegister.domain.user.record;
 
 import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.Pattern;
 import org.hibernate.validator.constraints.Length;
 
 public record AddressRecord(

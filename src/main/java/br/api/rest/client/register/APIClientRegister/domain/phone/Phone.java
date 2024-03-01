@@ -1,6 +1,6 @@
-package br.api.rest.client.register.APIClientRegister.domain.user;
+package br.api.rest.client.register.APIClientRegister.domain.phone;
 
-import br.api.rest.client.register.APIClientRegister.domain.user.record.PhoneRecord;
+import br.api.rest.client.register.APIClientRegister.domain.user.User;
 import jakarta.persistence.*;
 import lombok.*;
 

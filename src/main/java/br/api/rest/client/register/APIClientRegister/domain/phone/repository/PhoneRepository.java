@@ -1,5 +1,5 @@
 package br.api.rest.client.register.APIClientRegister.domain.phone.repository;
-import br.api.rest.client.register.APIClientRegister.domain.user.Phone;
+import br.api.rest.client.register.APIClientRegister.domain.phone.Phone;
 import br.api.rest.client.register.APIClientRegister.domain.user.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 

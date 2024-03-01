@@ -1,7 +1,7 @@
 package br.api.rest.client.register.APIClientRegister.domain.user;
 
+import br.api.rest.client.register.APIClientRegister.domain.phone.Phone;
 import br.api.rest.client.register.APIClientRegister.domain.user.address.Address;
-import br.api.rest.client.register.APIClientRegister.domain.user.record.PhoneRecord;
 import br.api.rest.client.register.APIClientRegister.domain.user.record.UserRegisterRecord;
 import br.api.rest.client.register.APIClientRegister.domain.user.record.UserUpdateRecord;
 import jakarta.persistence.*;
@@ -9,7 +9,6 @@ import lombok.*;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 @NoArgsConstructor
 @AllArgsConstructor

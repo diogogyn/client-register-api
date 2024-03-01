@@ -1,14 +1,13 @@
 package br.api.rest.client.register.APIClientRegister.controller;
 
 import br.api.rest.client.register.APIClientRegister.domain.phone.repository.PhoneRepository;
-import br.api.rest.client.register.APIClientRegister.domain.user.Phone;
-import br.api.rest.client.register.APIClientRegister.domain.user.UserService;
+import br.api.rest.client.register.APIClientRegister.domain.user.User;
+import br.api.rest.client.register.APIClientRegister.domain.user.record.UserDetailsRecord;
 import br.api.rest.client.register.APIClientRegister.domain.user.record.UserListRecord;
+import br.api.rest.client.register.APIClientRegister.domain.user.record.UserRegisterRecord;
 import br.api.rest.client.register.APIClientRegister.domain.user.record.UserUpdateRecord;
 import br.api.rest.client.register.APIClientRegister.domain.user.repository.UserRepository;
-import br.api.rest.client.register.APIClientRegister.domain.user.User;
-import br.api.rest.client.register.APIClientRegister.domain.user.record.UserRegisterRecord;
-import br.api.rest.client.register.APIClientRegister.domain.user.record.UserDetailsRecord;
+import br.api.rest.client.register.APIClientRegister.domain.user.service.UserService;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +21,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import java.net.URI;
-import java.util.List;
 
 @RestController
 @RequestMapping("user")
